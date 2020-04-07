@@ -58,13 +58,13 @@ class Picture:
     Retourne les couleurs R,G, B sous forme de liste du pixel à la ligne row et la colonne col
     '''
     def getCouleur(self,row, col):
-        pass
+        return self.img[row,col]
          
     '''
     Modifie les couleurs R,G,B du pixel à la ligne row et la colonne col
     '''
     def setCouleur(self,row, col,couleur):
-        pass
+        self.img[row,col]=couleur
         
         
     '''
@@ -98,6 +98,8 @@ print("la largeur est ",p1.getW())
 print("Retourne le tableau numpy constituant l'image")
 p1.getImg
 
+#On  Retourne les couleurs R,G, B sous forme de liste du pixel à la ligne 100 et la colonne 120
+p1.img[100,120]
 
 #Affichage del'image
 p1.affiche()
