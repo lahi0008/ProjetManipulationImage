@@ -7,13 +7,10 @@ Created on Mon Apr  6 23:29:42 2020
 import imageio 
 import numpy 
 import numpy as np
-import matplotlib.path as mpath
-import matplotlib.lines as mlines
-import matplotlib.patches as mpatches
-import matplotlib.colors
 import matplotlib.image as mpimg
-import matplotlib.colors as mcolors
-from matplotlib.pyplot import * 
+
+
+
 ## Image Processing
 class Picture:
     '''
