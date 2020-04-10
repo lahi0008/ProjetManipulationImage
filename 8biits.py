@@ -17,4 +17,4 @@ kernel = np.array([[1/8,1/8,1/8],[1/8,0,1/8],[1/8,1/8,1/8]])
 img_conv = convolve(img, kernel, mode="constant")
 mpimg.imsave("flourapide-hibiscus.png", img_conv, cmap="gray")
 
-a=1
+a=3
